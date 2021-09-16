@@ -33,21 +33,24 @@
         android:text="hide image" />
 
     <Button
-        android:background="#ffffff"
         android:id="@+id/btoust"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Show toust"
 
-        />
+        app:backgroundTint="#8BC34A" />
     <TextView
         android:id="@+id/nextpage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Go to Second Page >>>"
         android:background="#ffffff"
-        android:textSize="20dp"
-        android:gravity="center"></TextView>
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+
+
+        ></TextView>
 
 
 </LinearLayout>
